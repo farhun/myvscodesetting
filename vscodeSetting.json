@@ -1,0 +1,148 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "vscode-icontheme-nomo-dark-macos",
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        },
+        {
+            "selector": "sass",
+            "colors": "css"
+        },
+        {
+            "selector": "scss",
+            "colors": "css"
+        },
+        {
+            "selector": "less",
+            "colors": "css"
+        },
+        {
+            "selector": "html",
+            "colors": "css"
+        },
+        {
+            "selector": "javascript",
+            "colors": "css"
+        }
+    ],
+    "editor.fontFamily": "",
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "name": {
+                "custom": {
+                    "dark": {
+                        "borderWidth": "0 0 2px 0",
+                        "borderColor": "orange",
+                        "borderStyle": "solid",
+                        "borderRadius": "4px",
+                        "right": "10px"
+                    },
+                    "light": {
+                        "borderWidth": "0 0 2px 0",
+                        "borderColor": "brown",
+                        "borderStyle": "solid",
+                        "borderRadius": "4px",
+                        "right": "10px"
+                    }
+                }
+            }
+        },
+        "closing": {
+            "name": {
+                "custom": {
+                    "dark": {
+                        "borderWidth": "0 0 2px 0",
+                        "borderColor": "orange",
+                        "borderStyle": "solid",
+                        "borderRadius": "4px",
+                        "right": "10px"
+                    },
+                    "light": {
+                        "borderWidth": "0 0 2px 0",
+                        "borderColor": "brown",
+                        "borderStyle": "solid",
+                        "borderRadius": "4px",
+                        "right": "10px"
+                    }
+                }
+            }
+        }
+    },
+    "workbench.colorCustomizations": {
+        "editorBracketMatch.background": "#000", // Background color for matching brackets
+        "editorBracketMatch.border": "#EA3BFF", // Border color for matching brackets
+
+        // ----------------------------------- this is custom theme for atom one dark theme begin -----------------------------------
+        "editor.background": "#1f1f1f", // Editor background (main text area)
+        "sideBar.background": "#1f1f1f", // Background color for the sidebar
+        "editorGroupHeader.tabsBackground": "#101010", // Background for the tabs section header
+        "titleBar.activeBackground": "#101010", // Background for the active title bar
+        "titleBar.inactiveBackground": "#1f1f1f", // Background for the inactive title bar
+        "activityBar.background": "#1f1f1f", // Background for the activity bar (left panel)
+        "tab.activeBackground": "#1f1f1f", // Background color for the active tab
+        "tab.activeForeground": "#ededed", // Text color for the active tab
+        "tab.inactiveBackground": "#101010", // Background color for inactive tabs
+        "tab.inactiveForeground": "#aaaaaa", // Text color for inactive tabs
+        "tab.border": "#1f1f1f", // Border color between tabs
+        "input.background": "#2d2d2d", // Background color of input fields (e.g., search bar)
+        "input.foreground": "#ededed", // Text color inside input fields
+        "input.border": "#1a1a1a", // Border color of input fields
+        "input.placeholderForeground": "#aaaaaa", // Placeholder text color
+        "sideBar.foreground": "#ededed", // Text color in the sidebar
+        "sideBar.border": "#101010", // Border between sidebar and editor
+        "sideBarSectionHeader.background": "#2d2d2d", // Background of section headers (e.g., "Outline", "Timeline")
+        "sideBarSectionHeader.foreground": "#ededed", // Text color for section headers
+        "sideBarTitle.foreground": "#b0b0b0", // Title color in the sidebar (e.g., "Explorer", "Outline")
+        "list.activeSelectionBackground": "#313335", // Background for selected item in the sidebar
+        "list.activeSelectionForeground": "#ededed", // Text color for selected item
+        "list.inactiveSelectionBackground": "#363636", // Background for inactive selected item
+        "list.inactiveSelectionForeground": "#ededed", // Text color for inactive selected item
+        "list.hoverBackground": "#3e3e42", // Background color on hover
+        "list.hoverForeground": "#ededed", // Text color on hover
+        "statusBar.background": "#2222", // Main status bar background
+        "quickInput.background": "#252526", // Background color of the Quick Open popup
+        "quickInput.foreground": "#ededed", // Text color inside the Quick Open popup
+        "quickInput.border": "#1a1a1a", // Border color around the Quick Open popup
+        "quickInputList.focusBackground": "#313335", // Background color for focused item
+        "quickInputList.focusForeground": "#ededed", // Text color for focused item
+        "quickInputList.activeSelectionBackground": "#313335", // Active selected item background
+        "quickInputList.activeSelectionForeground": "#ededed", // Active selected item text color
+        "quickInputList.inactiveSelectionBackground": "#2d2d2d", // Inactive selected item background
+        "quickInputList.inactiveSelectionForeground": "#b0b0b0", // Inactive selected item text color
+        // ----------------------------------- this is custom theme for atom one dark theme end -----------------------------------
+
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "gitlens.graph.minimap.enabled": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "editor.tokenColorCustomizations": {}
+}
