@@ -117,7 +117,7 @@
         "quickInputList.activeSelectionForeground": "#ededed", // Active selected item text color
         "quickInputList.inactiveSelectionBackground": "#2d2d2d", // Inactive selected item background
         "quickInputList.inactiveSelectionForeground": "#b0b0b0", // Inactive selected item text color
-        // ----------------------------------- this is custom theme for atom one dark theme end -----------------------------------
+        // ----------------------------------- this is custom theme for atom one dark theme end ---------------------------------
 
     },
     "workbench.colorTheme": "Atom One Dark",
